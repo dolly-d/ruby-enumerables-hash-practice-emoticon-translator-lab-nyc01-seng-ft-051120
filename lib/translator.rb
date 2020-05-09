@@ -30,7 +30,7 @@ def get_english_meaning(path,emoji)
     library[key][:japanese] = emoji
   end
   if emoticon
-      emoticon[1][:english]
+      emoticon[:english]
   else
     "Sorry, that emoticon was not found"
   end
